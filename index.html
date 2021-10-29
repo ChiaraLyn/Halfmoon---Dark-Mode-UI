@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fontawesome 4.7.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    referrerpolicy="no-referrer" />
+  <!-- Halfmoon CSS -->
+  <link rel="stylesheet" href="assets/css/halfmoon-variables.min.css" />
+  <title>Halfmoon Tutorial</title>
+</head>
+
+<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars">
+
+  <!-- ============================================
+  =         MODALS (GO BEFORE PAGE WRAPPER)       =
+  =============================================*-->
+
+  <!-- Modal-1 simple -->
+  <div class="modal" id="modal-1" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <a href="#" class="close" role="button" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </a>
+        <h5 class="modal-title">Modal title</h5>
+        <p>
+          This is the modal content. Almost any type of content can be presented to the user here.
+        </p>
+        <div class="text-right mt-20">
+          <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+          <a href="#" class="btn mr-5" role="button">Close</a>
+          <a href="#" class="btn btn-primary" role="button">I understand</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal-2 form -->
+  <div class="modal" id="modal-2" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <a href="#" class="btn close" role="button" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </a>
+        <h5 class="modal-title">Sign in to your account</h5>
+        <form action="..." method="...">
+          <div class="form-group">
+            <label for="username" class="required">Username</label>
+            <input type="text" id="username" class="form-control" placeholder="Username" required="required">
+          </div>
+          <div class="form-group">
+            <label for="password" class="required">Password</label>
+            <input type="password" id="password" class="form-control" placeholder="Password" required="required">
+          </div>
+          <input class="btn btn-primary btn-block" type="submit" value="Sign in">
+        </form>
+        <div class="text-right mt-10">
+          <!-- text-right = text-align: right, margin-top: 1rem (10px) -->
+          <a href="#modal-2" class="hyperlink">Forgot password?</a>
+          <!-- hyperlink = used on regular links to remove anti-aliasing in dark mode -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal-3 Scrollable -->
+  <div class="modal ie-scroll-fix" id="modal-3" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content w-600">
+        <!-- w-600 = width: 60rem (600px) -->
+        <a href="#" class="close" role="button" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </a>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dignissimos veniam veritatis, magni soluta quam
+        repudiandae temporibus praesentium ab eum, voluptatum ratione aliquam aut asperiores fugiat beatae voluptate vel
+        iure rem officia iusto! Quam, itaque commodi. Quam, dicta accusantium dolores quibusdam dolorem quidem iste!
+        Unde, at excepturi laborum iste eveniet ullam illo ut praesentium minima quae autem ipsa? Omnis voluptatem sunt
+        qui accusamus dolorem ad maxime odit fugit nemo nobis? Nulla omnis doloribus facere provident ducimus mollitia
+        obcaecati sint labore iusto soluta ullam eius nam, tempore optio, expedita iste voluptate. Impedit sapiente
+        libero quaerat laborum eos voluptatibus. Laborum ratione praesentium dolorem consequatur a dicta pariatur fugit,
+        impedit obcaecati nostrum dolorum explicabo iure error in necessitatibus animi cum eaque? Facilis rem facere
+        possimus, consequatur eos ullam fuga vel minima earum temporibus cum voluptatem at praesentium voluptate,
+        dignissimos quae ea neque, accusamus animi architecto atque voluptatibus velit quasi? Magni quae quis qui
+        consequuntur obcaecati maxime molestiae, quidem beatae totam! Nulla laudantium hic, perspiciatis vitae corporis
+        vero iusto, at aspernatur accusantium magnam dolore libero ipsa accusamus enim a nisi quasi facilis fugiat culpa
+        quibusdam harum error. Quae, suscipit at voluptate modi, doloribus fuga, odit impedit non dolores error nulla
+        quia itaque blanditiis ipsam vel tempore temporibus vero sed architecto maiores a corrupti ullam nihil soluta.
+        Doloremque beatae blanditiis voluptas iste consectetur nam pariatur, similique dolorum magni autem commodi quam
+        error tenetur, quidem aut facere architecto, veniam provident aperiam perspiciatis enim ipsum nulla dolorem
+        cupiditate? Minima vitae modi ipsam, ab incidunt officiis reiciendis, mollitia beatae quia labore sunt pariatur
+        voluptate, nesciunt animi autem possimus molestiae enim magnam eos recusandae culpa. Impedit officia ab rerum
+        odio. Fuga exercitationem cumque corporis, modi necessitatibus sint! Placeat, veritatis? Possimus voluptatum
+        aliquid ex quos tenetur debitis accusantium at? In facilis mollitia fugit cum natus quos velit quisquam libero
+        aperiam et dolorem repudiandae fuga id iste explicabo adipisci, iusto ut! Eos consequatur voluptatem in velit
+        deserunt voluptas illo vero distinctio, voluptate beatae, sit ducimus animi ad, impedit quam magnam rerum est.
+        Aliquid cupiditate repellat architecto, libero odit delectus, quasi dolore, harum corporis ad inventore a
+        repellendus veniam cumque incidunt mollitia corrupti rem velit quibusdam nobis! Minus sint saepe omnis
+        dignissimos quaerat atque ut culpa ipsa dolore nisi quibusdam quas, eveniet placeat sed! Tempora placeat ullam
+        vitae a nemo voluptatum possimus nam temporibus magni, ipsam itaque, quidem obcaecati exercitationem sed, dolore
+        optio maiores aliquid. Possimus, cupiditate accusamus quasi recusandae explicabo nulla quibusdam nemo deleniti
+        iste fugiat, minus praesentium. Dicta dolorum provident nesciunt asperiores delectus dolor omnis deserunt totam
+        exercitationem doloremque? Totam esse, sunt error fuga omnis recusandae harum itaque! Libero provident illo
+        repudiandae consequatur veritatis voluptatem aspernatur dignissimos ex excepturi neque culpa deserunt fugit
+        ratione hic aperiam repellat, soluta laborum enim nemo corporis voluptate! Temporibus quis quasi voluptatum
+        error est asperiores dolorum. Recusandae soluta, neque hic optio dolore placeat possimus obcaecati atque
+        consectetur quis sint nesciunt nemo maxime ipsam exercitationem. Quaerat, qui earum. Ipsam harum voluptates
+        provident at dignissimos nobis error commodi, alias aperiam itaque voluptas cumque tempore, laboriosam officia
+        reprehenderit veniam in exercitationem! Ea consequatur dolor tenetur nobis incidunt maiores modi, vel veniam
+        aperiam rerum quibusdam possimus placeat repellendus soluta ex, reiciendis, cupiditate a nemo? Laudantium
+        commodi praesentium earum quos in eius sint aut, fugiat odio tenetur perspiciatis, modi dolore! Optio iure sequi
+        consequatur, sit odio amet quam qui, delectus iste sed deleniti officia nostrum placeat adipisci voluptates
+        cupiditate repellendus et accusantium! Cum iste laborum laudantium et explicabo sunt, ipsa magnam obcaecati
+        exercitationem consectetur. Dicta excepturi suscipit ipsam quasi molestias nesciunt soluta commodi omnis, earum,
+        quaerat ab eum fugit. Repudiandae vitae voluptatem neque fuga assumenda a error dolore laborum in amet,
+        accusamus molestias fugiat vero quam velit est vel blanditiis eveniet cum consectetur. Quidem vero tenetur
+        officia necessitatibus corrupti, quisquam veniam sint mollitia quae laborum maxime iste. Saepe, ab ex adipisci
+        praesentium, eveniet rerum itaque, quibusdam fuga illo corrupti quia debitis doloribus corporis. Ut odit cumque
+        nobis sapiente ipsa sint. Sunt voluptas voluptatibus nulla nihil, ipsa officia dolores, autem quam fugit dolore
+        blanditiis inventore consequatur minima quos adipisci maiores alias impedit aperiam cum? Esse delectus autem
+        quidem? Minima vel veritatis doloremque dolorum, voluptatem sapiente, debitis quo fugiat, eius vero molestiae
+        atque? Exercitationem labore, incidunt quam reiciendis minus, natus, dolores facilis amet nostrum et eaque
+        asperiores perferendis aperiam optio mollitia at suscipit soluta vitae animi voluptas quas adipisci assumenda
+        iusto rerum? Beatae perferendis praesentium, recusandae ex nulla itaque sit tempore illum dolore perspiciatis
+        tenetur qui dolores saepe nam in quos placeat. Laudantium expedita reiciendis quae fugit facilis magnam iusto
+        provident blanditiis, illo possimus, dolor ipsa ea beatae vero, doloribus mollitia quidem omnis in nihil nemo.
+        Asperiores facilis aspernatur quos incidunt ratione praesentium ut tempore, unde deleniti cumque officiis fuga
+        quia, necessitatibus nobis porro nihil. Laboriosam unde eum laborum, quaerat odio dolores illum totam in ipsa
+        ratione cum, porro voluptatibus qui corporis nihil, non suscipit alias tempora numquam! Excepturi ipsam aperiam
+        facilis ullam hic quos architecto rerum nisi atque ad! Tempora laudantium praesentium quibusdam accusamus? Nemo
+        et illum laborum temporibus dolore libero fugit? Esse laudantium quia soluta? Explicabo nostrum tempore
+        voluptatum enim consequuntur, quasi fugit atque ducimus commodi magni ut, deleniti architecto sit, quo facere?
+        Temporibus ut impedit sed vero quas rem expedita eum nulla voluptatibus eveniet. In cumque perspiciatis incidunt
+        nostrum doloremque temporibus repellat ex ipsam omnis minima voluptatum deserunt neque optio quis, sed ut ab?
+        Veritatis corporis incidunt enim aspernatur ut minima porro, libero assumenda magnam eum ullam eveniet pariatur?
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal-4 Image enlarge -->
+  <div class="modal" id="modal-4" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content modal-content-media w-500">
+        <a href="#" class="close" role="button" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </a>
+        <img
+          src="https://images.unsplash.com/photo-1634922797222-a1ed7140a4e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80"
+          class="img-fluid" alt="modal-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- Full-screen modal -->
+  <div class="modal modal-full ie-scroll-fix" id="modal-5" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <a href="#" class="close" role="button" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </a>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              <div class="card shadow-lg">
+                <div class="card__header">
+                  <h4>I'm a card</h4>
+                </div>
+                <div class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod modi
+                  repellendus itaque, vero obcaecati excepturi expedita libero laboriosam, in laborum harum. Pariatur
+                  nulla, dicta ipsam minima hic unde consequatur vel, magni harum, sapiente optio magnam eius. Sit harum
+                  blanditiis deserunt repellendus quos esse libero animi unde dicta aperiam hic molestiae minus alias,
+                  quae eos laborum voluptatum expedita. Aperiam provident quam ut iste beatae ullam, voluptates ex
+                  voluptatum obcaecati, accusamus dolor delectus expedita excepturi. Omnis laboriosam veritatis ipsam
+                  enim et, iusto sequi aperiam error sint incidunt rem quaerat corrupti mollitia ad voluptatum, nam quia
+                  quae iure modi? At amet et eos voluptates neque officia ab velit in ex unde tempora magnam dolore sit
+                  quos quae sed, harum, blanditiis, placeat quibusdam assumenda modi deleniti? Amet sunt optio
+                  accusantium expedita nulla, doloremque similique ab, ea eveniet excepturi et cumque quia esse vitae
+                  distinctio autem sequi. Ex accusamus recusandae, quidem eligendi ab, impedit omnis eius odio modi
+                  perspiciatis culpa nesciunt animi iusto, a natus officiis eveniet. Quis eos delectus velit tempora
+                  aliquam temporibus quam autem assumenda suscipit! Fugiat, impedit! Provident doloribus illo nihil
+                  quasi labore quas maxime iste sunt incidunt unde omnis repellat voluptates porro id tempore cum
+                  deleniti ducimus laborum a voluptatibus est delectus, suscipit quo! Necessitatibus esse, a hic
+                  provident impedit totam accusamus ex, pariatur repellat quo, possimus voluptate. Quasi ab ducimus
+                  ipsum eligendi dolor, pariatur obcaecati adipisci consectetur explicabo, odit porro nesciunt repellat
+                  corporis velit quibusdam itaque cumque minima quod minus fugiat incidunt officiis quos. Officia
+                  aspernatur possimus quam veritatis expedita optio! Ad maxime, aut possimus beatae quo ex, voluptas
+                  dolores porro dolore amet ut, nemo obcaecati. Explicabo, placeat deleniti cumque, minima autem
+                  voluptate eum ad sed tempora ex est, nobis ratione rerum assumenda ipsam atque debitis aliquam
+                  molestias quaerat eius odit quisquam dignissimos sunt corrupti? Atque harum blanditiis id nihil eius.
+                  Ipsum numquam consectetur, beatae corrupti ab totam architecto voluptatum animi minus rerum quisquam
+                  labore praesentium quae doloribus autem, nisi error, iure explicabo sapiente. Magni minima ipsum
+                  voluptatem a non voluptatibus suscipit delectus distinctio quaerat provident dicta perferendis neque
+                  deleniti voluptas debitis, odio tempora atque aliquid sequi hic molestiae. Quia excepturi perspiciatis
+                  dignissimos cum consequuntur. Quisquam rem voluptatem sint commodi ipsam hic soluta similique, id
+                  corrupti, odio veniam blanditiis sed, ad inventore et repellat accusamus suscipit quae beatae
+                  perferendis dicta. Quidem repudiandae cum omnis, doloremque numquam hic totam ullam, corrupti nobis
+                  quis est et quam in exercitationem ut! Explicabo aliquid accusantium, numquam quod fuga dolor velit
+                  ratione veritatis nulla quaerat. Cum, vel ratione pariatur quibusdam excepturi est repellendus
+                  molestiae vero fugiat at magni, aperiam cumque praesentium exercitationem tempore blanditiis
+                  doloremque accusamus dolores, tenetur odit obcaecati nesciunt ad! Fugit, vitae? Ut rerum qui
+                  asperiores cum veritatis voluptates quod explicabo recusandae nihil? Consequatur rerum, fugiat minima
+                  tenetur porro id aut iusto ipsam. Dolor accusantium modi voluptatum ipsum. Quia molestiae laudantium
+                  quibusdam dolorem ducimus quaerat inventore! Aspernatur harum rem consectetur! Molestias earum
+                  pariatur distinctio blanditiis nisi unde dignissimos a tempora incidunt quam architecto in optio sit
+                  odit explicabo ipsum, possimus dolores id?</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+  =              PAGE WRAPPER                    =
+  =============================================*-->
+
+  <!-- Page wrapper with default sidebar & navbar-fixed -->
+  <div class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom">
+
+    <!-- Navbar with a navbar-item as dropdown -->
+    <nav class="navbar">
+
+      <!-- Navbar brand -->
+      <div class="navbar-brand">
+        <img src="img/logo_black.svg" alt="logo" id="logo">
+      </div>
+
+      <!-- Navbar text -->
+      <span class="navbar-text ml-5">
+        <button class="btn btn-default mr-5" onclick="toggleDemo()"><i class="fa fa-moon-o" aria-hidden="true"></i>
+        </button>
+        <button class="btn" type="button" onclick="halfmoon.toggleSidebar()"><i class="fa fa-bars"
+            aria-hidden="true"></i></button>
+      </span>
+
+      <!-- Navbar nav -->
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item dropdown with-arrow">
+          <a class="nav-link" data-toggle="dropdown" id="nav-link-dropdown-toggle">
+            Helpers
+            <i class="fa fa-angle-down ml-5" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-link-dropdown-toggle">
+            <a href="https://www.gethalfmoon.com/docs" target="_blank" class="dropdown-item">Docs</a>
+            <a href="https://www.gethalfmoon.com/docs/display-utilities/#notation" target="_blank"
+              class="dropdown-item">Notations</a>
+            <a href="https://www.gethalfmoon.com/docs/customize/" target="_blank" class="dropdown-item">Customize</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Sidebar links with icons  -->
+    <div class="sidebar">
+      <div class="sidebar-menu">
+
+        <!-- Sidebar brand -->
+        <a href="https://www.gethalfmoon.com/" target="_blank" class="sidebar-brand">Discover Halfmoon</a>
+
+        <!-- Sidebar links (with icons) and titles -->
+        <h5 class="sidebar-title">Getting started</h5>
+
+        <div class="sidebar-divider"></div>
+
+        <a href="https://www.gethalfmoon.com/docs/introduction/" target="_blank"
+          class="sidebar-link sidebar-link-with-icon active">
+          <span class="sidebar-icon">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </span>
+          Installation
+        </a>
+
+        <a href="https://www.gethalfmoon.com/docs/page-building/" target="_blank"
+          class="sidebar-link sidebar-link-with-icon">
+          <span class="sidebar-icon">
+            <i class="fa fa-terminal" aria-hidden="true"></i>
+          </span>
+          Page building
+        </a>
+
+        <a href="https://www.gethalfmoon.com/docs/containers/" target="_blank"
+          class="sidebar-link sidebar-link-with-icon">
+          <span class="sidebar-icon">
+            <i class="fa fa-folder-open-o" aria-hidden="true"></i>
+          </span>
+          Containers
+        </a>
+
+        <a href="https://www.gethalfmoon.com/docs/grid-system/" target="_blank"
+          class="sidebar-link sidebar-link-with-icon">
+          <span class="sidebar-icon">
+            <i class="fa fa-table" aria-hidden="true"></i>
+          </span>
+          Grid system
+        </a>
+
+        <a href="https://www.gethalfmoon.com/docs/navbar/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+          <span class="sidebar-icon">
+            <i class="fa fa-map-o" aria-hidden="true"></i>
+          </span>
+          Navbar
+        </a>
+        <a href="https://www.gethalfmoon.com/docs/sidebar/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+          <span class="sidebar-icon">
+            <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+          </span>
+          Sidebar
+        </a>
+
+      </div>
+    </div>
+
+    <!-- ============================================
+    =              CONTENT WRAPPER                  =
+    =============================================*-->
+
+    <!-- Content wrapper -->
+    <div class="content-wrapper">
+
+      <!-- Modal Triggers -->
+      <section>
+        <div class="container px-20">
+
+          <div class="row">
+            <div class="col-12">
+              <h4>Modals</h4>
+            </div>
+          </div>
+
+          <div class="row mt-15">
+
+            <div class="col-md-2 mb-sm-15 mb-md-0">
+              <a href="#modal-1" class="btn btn-default" role="button">Simple</a>
+            </div>
+            <div class="col-md-2 mb-sm-15 mb-md-0">
+              <a href="#modal-2" class="btn btn-success" role="button">Sign In</a>
+            </div>
+            <div class="col-md-2 mb-sm-15 mb-md-0">
+              <a href="#modal-3" class="btn btn-secondary" role="button">Scrollable</a>
+            </div>
+            <div class="col-md-2 mb-sm-15 mb-md-0">
+              <a href="#modal-4" class="btn btn-danger" role="button">Image</a>
+            </div>
+            <div class="col-md-2 mb-sm-15 mb-md-0">
+              <a href="#modal-5" class="btn btn-primary" role="button">Full-screen</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Tables -->
+
+      <!-- Bordered table -->
+      <section>
+        <div class="container px-20 mt-20">
+
+          <div class="row">
+            <div class="col-12">
+              <h4>Tables</h4>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+
+              <div class="table-responsive my-20">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First</th>
+                      <th>Last</th>
+                      <th class="text-right">Age</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table-primary">
+                      <th>1</th>
+                      <td>John</td>
+                      <td>Doe</td>
+                      <td class="text-right">25</td>
+                    </tr>
+                    <tr>
+                      <th>2</th>
+                      <td>Jane</td>
+                      <td>Violet</td>
+                      <td class="text-right">27</td>
+                    </tr>
+                    <tr>
+                      <th>3</th>
+                      <td>Jack</td>
+                      <td>Gates</td>
+                      <td class="text-right">33</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Bootstrap card + Cards + Alerts -->
+      <section>
+        <div class="container px-20">
+
+          <div class="row">
+
+            <div class="col-lg-6">
+              <h4>Card</h4>
+            </div>
+
+            <div class="col-lg-6">
+              <h4>Alerts</h4>
+            </div>
+
+            <div class="col-lg-6">
+
+              <div class="row">
+
+                <!-- Bootstrap card -->
+                <div class="col-12">
+                  <div class="card shadow-lg">
+                    <img
+                      src="https://images.unsplash.com/photo-1634922797222-a1ed7140a4e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80"
+                      class="image-fluid w-full" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <a href="#" class="btn btn-primary">Card button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <!-- Default card -->
+                  <div class="card mw-full">
+                    <!-- w-400 = width: 40rem (400px), mw-full = max-width: 100% -->
+                    <h2 class="card-title m-0">Default card</h2> <!-- m-0 = margin: 0 -->
+                    <p class="mb-0">
+                      <!-- mb-0 = margin-bottom: 0 -->
+                      The weather forecast didn't say that, but the steel plate in his hip did. He had learned over the
+                      years to trust his hip over the weatherman.
+                    </p>
+                  </div>
+
+                  <!-- Primary card -->
+                  <div class="card card-primary mw-full">
+                    <!-- w-400 = width: 40rem (400px), mw-full = max-width: 100% -->
+                    <h2 class="card-title m-0 text-primary text-smoothing-auto">Primary card</h2>
+                    <!-- m-0 = margin: 0, text-smoothing-auto = no anti-aliasing -->
+                    <p class="mb-0 text-primary text-smoothing-auto">
+                      <!-- mb-0 = margin-bottom: 0, text-smoothing-auto = no anti-aliasing -->
+                      The weather forecast didn't say that, but the steel plate in his hip did. He had learned over the
+                      years to trust his hip over the weatherman.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+              <div class="alert mb-15" role="alert">
+                <h4 class="alert-heading">Default alert</h4>
+                This is a default alert with some content and <a href="#" class="alert-link">a link</a>.
+              </div>
+              <div class="alert alert-primary mb-15" role="alert">
+                <h4 class="alert-heading">Primary alert</h4>
+                This is a primary alert with some content and <a href="#" class="alert-link">a link</a>.
+              </div>
+              <div class="alert alert-success mb-15" role="alert">
+                <h4 class="alert-heading">Success alert</h4>
+                This is a success alert with some content and <a href="#" class="alert-link">a link</a>.
+              </div>
+              <div class="alert alert-secondary mb-15" role="alert">
+                <h4 class="alert-heading">Secondary alert</h4>
+                This is a secondary alert with some content and <a href="#" class="alert-link">a link</a>.
+              </div>
+              <div class="alert alert-danger mb-15" role="alert">
+                <h4 class="alert-heading">Danger alert</h4>
+                This is a danger alert with some content and <a href="#" class="alert-link">a link</a>.
+              </div>
+
+              <h5>Filled In Light mode</h5>
+
+              <div class="alert alert-primary filled-lm mb-15" role="alert">
+                <h4 class="alert-heading">Filled in light mode</h4>
+                This is a primary alert that will be filled in light mode.
+              </div>
+              <div class="alert alert-success filled-lm mb-15" role="alert">
+                <h4 class="alert-heading">Filled in light mode</h4>
+                This is a success alert that will be filled in light mode.
+              </div>
+              <div class="alert alert-secondary filled-lm mb-15" role="alert">
+                <h4 class="alert-heading">Filled in light mode</h4>
+                This is a secondary alert that will be filled in light mode.
+              </div>
+              <div class="alert alert-danger filled-lm mb-15" role="alert">
+                <h4 class="alert-heading">Filled in light mode</h4>
+                This is a danger alert that will be filled in light mode.
+              </div>
+
+              <h5>Filled in Dark Mode</h5>
+
+              <div class="alert alert-primary filled-dm mb-20" role="alert">
+                <h4 class="alert-heading">Filled in dark mode</h4>
+                This is a primary alert that will be filled in dark mode.
+              </div>
+              <div class="alert alert-success filled-dm mb-20" role="alert">
+                <h4 class="alert-heading">Filled in dark mode</h4>
+                This is a success alert that will be filled in dark mode.
+              </div>
+              <div class="alert alert-secondary filled-dm mb-20" role="alert">
+                <h4 class="alert-heading">Filled in dark mode</h4>
+                This is a secondary alert that will be filled in dark mode.
+              </div>
+              <div class="alert alert-danger filled-dm mb-20" role="alert">
+                <h4 class="alert-heading">Filled in dark mode</h4>
+                This is a danger alert that will be filled in dark mode.
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-6 pr-5">
+
+              <h5>Always filled</h5>
+              <div class="alert alert-primary filled mb-20" role="alert">
+                <h4 class="alert-heading">Always filled</h4>
+                This is a primary alert that will always be filled.
+              </div>
+              <div class="alert alert-success filled mb-20" role="alert">
+                <h4 class="alert-heading">Always filled</h4>
+                This is a success alert that will always be filled.
+              </div>
+              <div class="alert alert-secondary filled mb-20" role="alert">
+                <h4 class="alert-heading">Always filled</h4>
+                This is a secondary alert that will always be filled.
+              </div>
+              <div class="alert alert-danger filled mb-20" role="alert">
+                <h4 class="alert-heading">Always filled</h4>
+                This is a danger alert that will always be filled.
+              </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+              <h5>Dismissable</h5>
+
+              <div class="alert mb-20" role="alert">
+                <button class="close" data-dismiss="alert" type="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="alert-heading">Dismissible alert</h4>
+                This is a default alert that can be dismissed.
+              </div>
+
+              <div class="alert alert-primary mb-20" role="alert">
+                <button class="close" data-dismiss="alert" type="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="alert-heading">Dismissible alert</h4>
+                This is a primary alert that can be dismissed.
+              </div>
+
+              <div class="alert alert-success mb-20" role="alert">
+                <button class="close" data-dismiss="alert" type="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="alert-heading">Dismissible alert</h4>
+                This is a success alert that can be dismissed.
+              </div>
+
+              <div class="alert alert-secondary mb-20" role="alert">
+                <button class="close" data-dismiss="alert" type="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="alert-heading">Dismissible alert</h4>
+                This is a secondary alert that can be dismissed.
+              </div>
+
+              <div class="alert alert-danger mb-20" role="alert">
+                <button class="close" data-dismiss="alert" type="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="alert-heading">Dismissible alert</h4>
+                This is a danger alert that can be dismissed.
+              </div>
+            </div>
+
+            <div class="col-12">
+
+              <h5>Tips for Alert</h5>
+
+              <div class="alert alert-secondary filled-dm w-400 mw-full" role="alert">
+                <!-- w-400 = width: 40rem (400px), mw-full = max-width: 100% -->
+                <div class="row align-items-center">
+                  <!-- align-items-center = align-items: center -->
+                  <div class="col-sm-2">
+                    <div class="w-50 h-50 d-flex align-items-center rounded-circle bg-secondary hidden-dm">
+                      <!-- w-50 = width: 5rem (50px), h-50 = height: 5rem (50px), d-flex = display: flex, align-items-center = align-items: center, rounded-circle = border-radius: 50%, bg-secondary = background-color: var(--secondary-color), hidden-dm = hidden in dark mode -->
+                      <div class="m-auto">
+                        <!-- m-auto = margin: auto -->
+                        <i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i>
+                        <span class="sr-only">Lightbulb</span> <!-- sr-only = only for screen readers -->
+                      </div>
+                    </div>
+                    <div class="w-50 h-50 d-flex align-items-center rounded-circle bg-white hidden-lm">
+                      <!-- w-50 = width: 5rem (50px), h-50 = height: 5rem (50px), d-flex = display: flex, align-items-center = align-items: center, rounded-circle = border-radius: 50%, bg-white = background-color: var(--white-bg-color), hidden-lm = hidden in light mode -->
+                      <div class="m-auto">
+                        <!-- m-auto = margin: auto -->
+                        <i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i>
+                        <span class="sr-only">Lightbulb</span> <!-- sr-only = only for screen readers -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-9 offset-sm-1 py-10">
+                    <!-- py-10 = padding-top: 1rem (10px) and padding-bottom: 1rem (10px) -->
+                    <h4 class="alert-heading">Here's a tip for you</h4>
+                    Utility classes can be used with alerts to create useful notification boxes that look good in both
+                    light and dark mode.
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </section>
+
+    </div><!-- .content-wrapper -->
+
+    <!-- Navbar fixed bottom -->
+    <nav class="navbar navbar-fixed-bottom">
+      Chiara Lyn @<span id="year">
+        <script>document.getElementById('year').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+      </span>
+    </nav>
+
+  </div>
+
+  <!-- ==========================================-->
+
+  <!-- Halfmoon JS -->
+  <script src="assets/js/halfmoon.min.js"></script>
+
+  <script>
+
+    // Dark mode toggle demo
+    function toggleDemo() {
+
+      halfmoon.toggleDarkMode();
+
+      // Toggle Svg Logo white/black version
+      let logo = document.getElementById('logo');
+      let logoSrc = logo.getAttribute('src');
+      logoSrc = logoSrc == 'img/logo_white.svg' ? 'img/logo_black.svg' : 'img/logo_white.svg';
+      logo.setAttribute('src', logoSrc);
+    }
+
+  </script>
+
+</body>
+
+</html>
